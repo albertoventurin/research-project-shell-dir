@@ -1,0 +1,21 @@
+project:
+  render: 
+    - _draft.qmd
+format:
+  pdf:
+    documentclass: article
+    keep-tex: true
+    link-citations: true
+    colorlinks: true
+  # html:
+  #   toc: true
+  #   citations-hover: true
+execute: 
+  echo: false
+  warning: false
+  message: false
+bibliography: biblio.bib
+
+
+
+

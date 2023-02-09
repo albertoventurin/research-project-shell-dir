@@ -1,0 +1,30 @@
+---
+---
+
+## Data
+
+Here is a table of some data
+
+```{r, echo=F}
+#| label: tbl-mtcars
+#| tbl-cap: The first 10 rows of the mtcars data
+library(kableExtra)
+library(tidyverse)
+
+mtcars %>% 
+  slice(1:10) %>% 
+  kbl(booktabs = T)
+
+```
+
+Here instead a plot
+
+```{r}
+#| echo: false
+#| label: fig-mpg-hp-cyl
+#| out-width: 100%
+#| fig-cap: A plot
+
+knitr::include_graphics(here::here("Figures/mpg_hp.png"))
+```
+

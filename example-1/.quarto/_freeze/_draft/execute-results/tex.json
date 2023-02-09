@@ -1,0 +1,18 @@
+{
+  "hash": "6ecc0f5119178f575a7d657f8dd3b4f6",
+  "result": {
+    "markdown": "---\ntitle: \"My paper\"\nkeep-tex: true\n---\n\n\n# Introduction\n\n---\n---\n\n## Intro\n\nSome introduction\n\n\n\n# Literature review\n\n---\n---\n\n## Lit review\n\n@Coviello2015a is a citation\n\n\n\n# Data\n\n---\n---\n\n## Data\n\nHere is a table of some data\n\n::: {#tbl-mtcars .cell tbl-cap='The first 10 rows of the mtcars data'}\n::: {.cell-output-display}\n\\begin{tabular}[t]{lrrrrrrrrrrr}\n\\toprule\n  & mpg & cyl & disp & hp & drat & wt & qsec & vs & am & gear & carb\\\\\n\\midrule\nMazda RX4 & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.620 & 16.46 & 0 & 1 & 4 & 4\\\\\nMazda RX4 Wag & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.875 & 17.02 & 0 & 1 & 4 & 4\\\\\nDatsun 710 & 22.8 & 4 & 108.0 & 93 & 3.85 & 2.320 & 18.61 & 1 & 1 & 4 & 1\\\\\nHornet 4 Drive & 21.4 & 6 & 258.0 & 110 & 3.08 & 3.215 & 19.44 & 1 & 0 & 3 & 1\\\\\nHornet Sportabout & 18.7 & 8 & 360.0 & 175 & 3.15 & 3.440 & 17.02 & 0 & 0 & 3 & 2\\\\\n\\addlinespace\nValiant & 18.1 & 6 & 225.0 & 105 & 2.76 & 3.460 & 20.22 & 1 & 0 & 3 & 1\\\\\nDuster 360 & 14.3 & 8 & 360.0 & 245 & 3.21 & 3.570 & 15.84 & 0 & 0 & 3 & 4\\\\\nMerc 240D & 24.4 & 4 & 146.7 & 62 & 3.69 & 3.190 & 20.00 & 1 & 0 & 4 & 2\\\\\nMerc 230 & 22.8 & 4 & 140.8 & 95 & 3.92 & 3.150 & 22.90 & 1 & 0 & 4 & 2\\\\\nMerc 280 & 19.2 & 6 & 167.6 & 123 & 3.92 & 3.440 & 18.30 & 1 & 0 & 4 & 4\\\\\n\\bottomrule\n\\end{tabular}\n:::\n:::\n\nHere instead a plot\n\n::: {.cell}\n::: {.cell-output-display}\n![A plot](Figures/mpg_hp.png){#fig-mpg-hp-cyl width=100%}\n:::\n:::\n\n\n\n\n# Results\n\n---\n---\n\n\nHere I show the results from @tbl-mtcars and a regression from @fig-mpg-hp-cyl: I estimate\n\n$$y_i = \\beta_0 + \\beta_1 x_i + \\varepsilon_i$$\n\n::: {#tbl-reg1 .cell tbl-cap='Regression table 1'}\n \\begin{table}[!htbp] \\centering    \\caption{}    \\label{}  \\begin{tabular}{@{\\extracolsep{5pt}}lc}  \\\\[-1.8ex]\\hline  \\hline \\\\[-1.8ex]   & \\multicolumn{1}{c}{\\textit{Dependent variable:}} \\\\  \\cline{2-2}  \\\\[-1.8ex] & mpg \\\\  \\hline \\\\[-1.8ex]   hp & $-$0.019 \\\\    & (0.015) \\\\    & \\\\   cyl & $-$2.265$^{***}$ \\\\    & (0.576) \\\\    & \\\\   Constant & 36.908$^{***}$ \\\\    & (2.191) \\\\    & \\\\  \\hline \\\\[-1.8ex]  Observations & 32 \\\\  R$^{2}$ & 0.741 \\\\  Adjusted R$^{2}$ & 0.723 \\\\  Residual Std. Error & 3.173 (df = 29) \\\\  F Statistic & 41.422$^{***}$ (df = 2; 29) \\\\  \\hline  \\hline \\\\[-1.8ex]  \\textit{Note:}  & \\multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\\\  \\end{tabular}  \\end{table} \n:::\n\n\n\n\n\\newpage\n\n# References\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "\\usepackage{booktabs}\n\\usepackage{longtable}\n\\usepackage{array}\n\\usepackage{multirow}\n\\usepackage{wrapfig}\n\\usepackage{float}\n\\usepackage{colortbl}\n\\usepackage{pdflscape}\n\\usepackage{tabu}\n\\usepackage{threeparttable}\n\\usepackage{threeparttablex}\n\\usepackage[normalem]{ulem}\n\\usepackage{makecell}\n\\usepackage{xcolor}\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

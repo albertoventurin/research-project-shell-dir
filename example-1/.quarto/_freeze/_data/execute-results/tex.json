@@ -1,0 +1,18 @@
+{
+  "hash": "8017a93c4b53a4f47f901f35106d887e",
+  "result": {
+    "markdown": "---\ntitle: \"Data\"\n---\n\n\n## Data\n\nHere is a summary table of some data\n\n\n::: {#tbl-mtcars .cell tbl-cap='The first 10 rows of the mtcars data'}\n::: {.cell-output .cell-output-stderr}\n```\n-- Attaching packages --------------------------------------- tidyverse 1.3.1 --\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nv ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.0      v stringr 1.4.1 \nv readr   2.1.2      v forcats 0.5.2 \n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\n-- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter()     masks stats::filter()\nx dplyr::group_rows() masks kableExtra::group_rows()\nx dplyr::lag()        masks stats::lag()\n```\n:::\n\n::: {.cell-output-display}\n\\begin{tabular}[t]{lrrrrrrrrrrr}\n\\toprule\n  & mpg & cyl & disp & hp & drat & wt & qsec & vs & am & gear & carb\\\\\n\\midrule\nMazda RX4 & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.620 & 16.46 & 0 & 1 & 4 & 4\\\\\nMazda RX4 Wag & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.875 & 17.02 & 0 & 1 & 4 & 4\\\\\nDatsun 710 & 22.8 & 4 & 108.0 & 93 & 3.85 & 2.320 & 18.61 & 1 & 1 & 4 & 1\\\\\nHornet 4 Drive & 21.4 & 6 & 258.0 & 110 & 3.08 & 3.215 & 19.44 & 1 & 0 & 3 & 1\\\\\nHornet Sportabout & 18.7 & 8 & 360.0 & 175 & 3.15 & 3.440 & 17.02 & 0 & 0 & 3 & 2\\\\\n\\addlinespace\nValiant & 18.1 & 6 & 225.0 & 105 & 2.76 & 3.460 & 20.22 & 1 & 0 & 3 & 1\\\\\nDuster 360 & 14.3 & 8 & 360.0 & 245 & 3.21 & 3.570 & 15.84 & 0 & 0 & 3 & 4\\\\\nMerc 240D & 24.4 & 4 & 146.7 & 62 & 3.69 & 3.190 & 20.00 & 1 & 0 & 4 & 2\\\\\nMerc 230 & 22.8 & 4 & 140.8 & 95 & 3.92 & 3.150 & 22.90 & 1 & 0 & 4 & 2\\\\\nMerc 280 & 19.2 & 6 & 167.6 & 123 & 3.92 & 3.440 & 18.30 & 1 & 0 & 4 & 4\\\\\n\\bottomrule\n\\end{tabular}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "\\usepackage{booktabs}\n\\usepackage{longtable}\n\\usepackage{array}\n\\usepackage{multirow}\n\\usepackage{wrapfig}\n\\usepackage{float}\n\\usepackage{colortbl}\n\\usepackage{pdflscape}\n\\usepackage{tabu}\n\\usepackage{threeparttable}\n\\usepackage{threeparttablex}\n\\usepackage[normalem]{ulem}\n\\usepackage{makecell}\n\\usepackage{xcolor}\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
