@@ -8,10 +8,8 @@ This also allows for collaboration with coauthors (through Git/GitHub) but the o
 
 ## example-1
 
-Sort of "brute force" approach to Quarto. 
+Sort of "brute force" approach to Quarto in order to allow for different sections of the paper to be in different files. 
 
-TODO:
+__Pros:__
 
-	- Styling of citations
-	- Document templates (latex)
-	- Render to html and add button for rendering to pdf 
+

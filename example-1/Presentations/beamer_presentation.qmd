@@ -1,0 +1,27 @@
+---
+title: "Example beamer presentation"
+format: beamer
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Inserting a plot
+
+```{r}
+#| echo: false
+#| out-width: 100%
+#| label: plt-mtcars
+#| fig-cap: A plot
+  
+knitr::include_graphics(here::here("Figures/mpg_hp.png"))
+```
+

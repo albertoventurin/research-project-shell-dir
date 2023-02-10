@@ -7,9 +7,14 @@ format:
     keep-tex: true
     link-citations: true
     colorlinks: true
-  # html:
-  #   toc: true
-  #   citations-hover: true
+    filters: 
+      - abstract-section
+  html:
+    toc: true
+    citations-hover: true
+    embed-resources: true
+    filters: 
+      - parse-latex
 execute: 
   echo: false
   warning: false

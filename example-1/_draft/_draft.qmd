@@ -1,6 +1,13 @@
 ---
 title: "My paper"
+date: "`r Sys.Date()`"
+date-format: DD-MM-YYYY
+author: Alberto Venturin^[European University Institute]
 ---
+
+# Abstract
+
+Words about the most important scientific discovery of the last 34 seconds.
 
 # Introduction
 

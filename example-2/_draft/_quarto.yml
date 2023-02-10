@@ -24,6 +24,7 @@ format:
   pdf:
     documentclass: scrreprt
     keep-tex: true
+    colorlinks: true
 execute: 
   warning: false
   error: false
