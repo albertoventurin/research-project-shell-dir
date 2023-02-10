@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "example-2"
+  author: "Jane Doe"
+  date: "2/10/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - data.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    embed-resources: true
+# ADDED EXTENSION FOR EMBEDDING LATEX TABLE IN HTML 
+    filters:      
+      - parse-latex
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+execute: 
+  warning: false
+  error: false
+  message: false
+
+

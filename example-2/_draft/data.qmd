@@ -1,0 +1,25 @@
+# Data 
+
+This is a preview of part of the mtcars dataset:
+
+```{r}
+#| echo: false
+#| label: tab-mtcars
+#| tbl-cap: The first ten rows of the mtcars dataset
+library(tidyverse)
+mtcars %>% 
+  dplyr::slice(1:10) %>% 
+  kableExtra::kbl(booktabs=T)
+```
+
+and here is a nice plot
+
+```{r}
+#| echo: false
+#| fig-cap: The relationship between car attributes
+#| label: fig-mtcars
+#| out-width: 100%
+
+knitr::include_graphics(here::here("Figures/mpg_hp.png"))
+```
+

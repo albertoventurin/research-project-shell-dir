@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "example-2",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "2  Data",
+    "section": "",
+    "text": "This is a preview of part of the mtcars dataset:\n\n\n\nThe first ten rows of the mtcars dataset\n \n  \n      \n    mpg \n    cyl \n    disp \n    hp \n    drat \n    wt \n    qsec \n    vs \n    am \n    gear \n    carb \n  \n \n\n  \n    Mazda RX4 \n    21.0 \n    6 \n    160.0 \n    110 \n    3.90 \n    2.620 \n    16.46 \n    0 \n    1 \n    4 \n    4 \n  \n  \n    Mazda RX4 Wag \n    21.0 \n    6 \n    160.0 \n    110 \n    3.90 \n    2.875 \n    17.02 \n    0 \n    1 \n    4 \n    4 \n  \n  \n    Datsun 710 \n    22.8 \n    4 \n    108.0 \n    93 \n    3.85 \n    2.320 \n    18.61 \n    1 \n    1 \n    4 \n    1 \n  \n  \n    Hornet 4 Drive \n    21.4 \n    6 \n    258.0 \n    110 \n    3.08 \n    3.215 \n    19.44 \n    1 \n    0 \n    3 \n    1 \n  \n  \n    Hornet Sportabout \n    18.7 \n    8 \n    360.0 \n    175 \n    3.15 \n    3.440 \n    17.02 \n    0 \n    0 \n    3 \n    2 \n  \n  \n    Valiant \n    18.1 \n    6 \n    225.0 \n    105 \n    2.76 \n    3.460 \n    20.22 \n    1 \n    0 \n    3 \n    1 \n  \n  \n    Duster 360 \n    14.3 \n    8 \n    360.0 \n    245 \n    3.21 \n    3.570 \n    15.84 \n    0 \n    0 \n    3 \n    4 \n  \n  \n    Merc 240D \n    24.4 \n    4 \n    146.7 \n    62 \n    3.69 \n    3.190 \n    20.00 \n    1 \n    0 \n    4 \n    2 \n  \n  \n    Merc 230 \n    22.8 \n    4 \n    140.8 \n    95 \n    3.92 \n    3.150 \n    22.90 \n    1 \n    0 \n    4 \n    2 \n  \n  \n    Merc 280 \n    19.2 \n    6 \n    167.6 \n    123 \n    3.92 \n    3.440 \n    18.30 \n    1 \n    0 \n    4 \n    4 \n  \n\n\n\n\n\nand here is a nice plot\n\n\n\n\n\nFigure 2.1: The relationship between car attributes"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever. But I can add a regression table that summarises the correlation shown in Figure 2.1\n\n\nRegression of mpg on hp and cylinders \n\n\n\n\n\n\n\nDependent variable:\n\n\n\n\n\n\n\nmpg\n\n\n\n\n\n\nhp\n\\(-\\)0.019\n\n\n\n(0.015)\n\n\n\n\n\n\ncyl\n\\(-\\)2.265\\(^{***}\\)\n\n\n\n(0.576)\n\n\n\n\n\n\nConstant\n36.908\\(^{***}\\)\n\n\n\n(2.191)\n\n\n\n\n\n\n\n\n\n\nObservations\n32\n\n\nR\\(^{2}\\)\n0.741\n\n\nAdjusted R\\(^{2}\\)\n0.723\n\n\nResidual Std. Error\n3.173 (df = 29)\n\n\nF Statistic\n41.422\\(^{***}\\) (df = 2; 29)\n\n\n\n\n\n\nNote:\n\\(^{*}\\)p\\(<\\)0.1; \\(^{**}\\)p\\(<\\)0.05; \\(^{***}\\)p\\(<\\)0.01"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]

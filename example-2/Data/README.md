@@ -1,0 +1,2 @@
+Save your data here. Make sure to __separate raw data from processed data__ and to __never overwrite__ the raw data.
+Files here should be added to the .gitignore file as they can take up quite a lot of space and you have a 1GB limit on GitHub.
